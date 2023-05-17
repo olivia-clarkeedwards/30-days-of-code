@@ -16,4 +16,8 @@ import sys
 #
 
 def solve(meal_cost, tip_percent, tax_percent):
-    # Write your code here
+    tip = meal_cost * (tip_percent / 100.0)
+    tax = meal_cost * (tax_percent / 100.0)
+    print(int(round(meal_cost + tip + tax)))
+
+solve(12.00, 20, 8) == 15
