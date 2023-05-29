@@ -1,5 +1,3 @@
-
-
 def printEvenAndOddChars(s):
     even_string = ""
     odd_string = ""
