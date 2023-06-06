@@ -7,8 +7,6 @@ import re
 import sys
 
 
-
-
 def printReversedArray(arr):
     
     for i in range(len(arr) - 1, -1, -1):
@@ -17,7 +15,5 @@ def printReversedArray(arr):
 
 
 n = int(input().strip())
-
 arr = list(map(int, input().rstrip().split()))
-
 printReversedArray(arr)
